@@ -8,12 +8,20 @@
     U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
     U+FEFF, U+FFFD;
 }
+@font-face {
+	font-family: 'JF-Dot-MPlusH10B';
+	src: url(./fonts/JF-Dot-MPlusH10B.ttf);
+}
+@font-face {
+	font-family: 'JF-Dot-MPlusH12B';
+	src: url(./fonts/JF-Dot-MPlusH12B.ttf);
+}
 
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: 'Press Start 2P';
+  font-family: 'Press Start 2P','JF-Dot-MPlusH10B';
   font-size: 90%;
 }
 
@@ -50,6 +58,8 @@ main {
 }
 
 .content {
+  font-family: 'JF-Dot-MPlusH12B';
+  font-size: 110% !important;
   margin: 1.5rem auto !important;
 }
 
@@ -60,6 +70,8 @@ main {
 }
 
 .raw {
+  font-family: 'JF-Dot-MPlusH12B';
+  font-size: 110% !important;
   padding: 22px;
 }
 
